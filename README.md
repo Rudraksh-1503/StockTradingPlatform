@@ -1,0 +1,2 @@
+# StockTradingPlatform
+New Repository
