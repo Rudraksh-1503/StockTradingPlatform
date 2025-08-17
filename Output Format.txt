@@ -1,0 +1,85 @@
+✅ Sample Output of TradingPlatform.java
+Program Start (First Run)
+Starting new portfolio with $10,000 cash.
+
+==== STOCK TRADING PLATFORM ====
+1. View Market
+2. Buy
+3. Sell
+4. View Portfolio
+5. View Transactions
+6. Save & Exit
+Choose:
+
+Case 1: View Market
+
+(User enters 1)
+
+---- MARKET ----
+AAPL  Apple Inc.          191.23
+TSLA  Tesla Inc.          239.15
+MSFT  Microsoft Corp.     411.02
+AMZN  Amazon.com Inc.     178.45
+
+Case 2: Buy Stock
+
+(User enters 2, chooses AAPL, 10 shares)
+
+---- MARKET ----
+AAPL  Apple Inc.          190.55
+TSLA  Tesla Inc.          241.78
+MSFT  Microsoft Corp.     409.60
+AMZN  Amazon.com Inc.     181.30
+
+Enter symbol: AAPL
+Quantity: 10
+Bought 10 AAPL
+
+Case 4: View Portfolio
+
+(User enters 4)
+
+---- PORTFOLIO ----
+Cash: 8109.50
+AAPL: 10 shares @ avg 189.05 | Current: 1910.50
+
+Case 3: Sell Stock
+
+(User enters 3, chooses AAPL, sells 5 shares)
+
+---- PORTFOLIO ----
+Cash: 8109.50
+AAPL: 10 shares @ avg 189.05 | Current: 1910.50
+
+Enter symbol: AAPL
+Quantity: 5
+Sold 5 AAPL
+
+Case 4: View Portfolio (after sell)
+---- PORTFOLIO ----
+Cash: 9055.75
+AAPL: 5 shares @ avg 189.05 | Current: 955.25
+
+Case 5: View Transactions
+
+(User enters 5)
+
+---- TRANSACTIONS ----
+BUY 10 AAPL @ 189.05 (Sun Aug 17 20:30:15 IST 2025)
+SELL 5 AAPL @ 191.05 (Sun Aug 17 20:31:12 IST 2025)
+
+Case 6: Save & Exit
+
+(User enters 6)
+
+Portfolio saved. Goodbye!
+
+Next Run (Resume Previous Portfolio)
+==== STOCK TRADING PLATFORM ====
+1. View Market
+2. Buy
+3. Sell
+4. View Portfolio
+5. View Transactions
+6. Save & Exit
+Choose:
